@@ -1,9 +1,10 @@
+import argparse
 from llama_index import ServiceContext, SimpleDirectoryReader, LLMPredictor, PromptHelper, GPTVectorStoreIndex, StorageContext, load_index_from_storage
 
 from langchain import OpenAI
 import os
 
-os.environ["OPENAI_API_KEY"] = ""
+os.environ["OPENAI_API_KEY"] = "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"
 max_input = 4096
 tokens = 256
 chunk_size = 600
@@ -14,7 +15,7 @@ llmpredictor = LLMPredictor(llm=OpenAI(temperature=0, model_name="text-ada-001",
 service_context = ServiceContext.from_defaults(llm_predictor=llmpredictor, prompt_helper=promp_helper)
 
 def createVector(path):
-
+  print("Run createvector")
   promp_helper = PromptHelper(max_input, tokens, max_chunk_overlap, chunk_size_limit=chunk_size)
 
   llmpredictor = LLMPredictor(llm=OpenAI(temperature=0, model_name="text-ada-001", max_tokens=tokens))
@@ -27,17 +28,21 @@ def createVector(path):
   return index
 
 def answerMe():
+  print("Run answerMe")
+
   # rebuild storage context
   storage_context = StorageContext.from_defaults(persist_dir="./index")
   # load index
   index = load_index_from_storage(storage_context)
 
   while True:
-      prompt = input("Ask the farm-gpt  ")
+      prompt = input("Ask the super-brain")
       query_engine = index.as_query_engine(
         response_mode="tree_summarize"
       )
       response = query_engine.query(prompt)
       print(f"Resonse: {response} \n")
-# createVector("./data")
-answerMe()
+
+if __name__ == "__main__":
+  # createVector("./data")
+  answerMe()

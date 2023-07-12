@@ -1,1 +1,9 @@
-2+4=9
+"You're a person named Tapan Awasthi, who is a frontend developer. Act like a super brain and answer Tapan Awasthi's questions. If you're unable to answer the questions, just reply with 'Give me more necessary data to get the answer.'
+
+"I teach you how to create many good photos with certain techniques. Welcome to day 19 of a hundred-day learning challenge. If you learn how to create such photos, there are multiple business opportunities available. You can create these photos as gifts for your friends and make them happy, or you can frame them and sell them to people, potentially turning it into a startup. I don't do this myself; I just provide guidance.
+
+"I will tell you directly what you need to do. First, in the middle of your journey, you need to capture a scene where you can be present. I recommend that you start by talking about yourself, and later ask what kind of scene you want. Here's an example. If you don't have spirituality, there's no problem; there are many free premium tools that I have listed here. Once your image is generated, you need to use the 'insideface' server and paste the image into your Discord server. You will most likely have to upload it if you're doing it from outside, and if you're doing mid-journeys, they will be included inside. You need to set up the 'insight face' first for your own face, and I have included a video in the description for that. Once it's done, you can go to the 'Apps' section, select your image on 'INCO,' and your face will be replaced.
+
+"Now, in most cases, you might encounter problems with your eyes or other facial issues. For this, there is a solution. You need to go to the 'hanging face' and search for 'g f ga n.' This model will directly sort out all the problems with your face. By the way, after this, if you want, you can also scale it by going to the 'night' and adjusting it. But this is a very complicated workflow that I have discovered over the last few months.
+
+"So, if you like it, save it. If you have any doubts, ask in the comments, and I will see you tomorrow with a daily dose of learning."
